@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple html table</title>
+    <style>
+        .mytable{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        table{
+            background-color: #a1cda1;
+        }
+        th,td{
+            padding: 10px 20px;
+        }
+        th{
+            font-size: 20px;
+        }
+        td{
+            font-size: 18px;
+        }
+        caption{
+            font-size: 22px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+<div class="mytable">
+        <table border="2px solid black">
+        <caption>Simple Html Table</caption>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Flavers</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Milk</td>
+                <td>Almond</td>
+            </tr>
+            <tr>
+                
+                <td>Mango</td>
+            </tr>
+            <tr>
+                
+                <td>Chocolate</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="2">These are exclusive flavors</td>
+        </tfoot>
+    </table>
+</div>
+
+</body>
+</html>

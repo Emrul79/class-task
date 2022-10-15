@@ -1,0 +1,12 @@
+
+what is semantic tag?
+=>The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation.
+ It makes HTML more comprehensible by better defining the different sections and layout of web pages.
+
+5 example of semantic tag?
+=>
+1.header;
+2.nav;
+3.main;
+4.section;
+5.footer;

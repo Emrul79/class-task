@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple html form</title>
+    <style>
+        .myforms{
+
+             width: 100%;
+           min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            background-color: antiquewhite;
+            padding: 30px;
+            border-radius: 15px;
+        }
+        input[type="text"],input[type="email"],input[type="password"]{
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+        }
+        input[type="radio"]{
+            font-size: 20px;
+        }
+             input[type="submit"]{
+            font-size: 20px;
+            width: 100%;
+            border: none;
+            border-radius: 10px;
+            background-color: aqua;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="myforms">
+      <form>
+        <label for="firstname"><strong>Firstname:</strong></label>
+        <input
+          type="text"
+          id="firstname"
+          placeholder="Enter first name"
+        /><br /><br />
+        <label for="Laststname"><strong>Laststname:</strong></label>
+        <input
+          type="text"
+          id="firstname"
+          placeholder="Enter last name"
+        /><br /><br />
+        <label for="email"><strong>Email:</strong></label>
+        <input type="email" id="email" placeholder="Enter email" /><br /><br />
+        <label for="password"><strong>Password:</strong></label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter password"
+        /><br /><br />
+
+        <!-- gender section  -->
+        <p><strong>Gender:</strong></p>
+        <input type="radio" name="gender" value="male" id="male" />
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" value="female" id="female" />
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" value="others" id="others" />
+        <label for="gender">Others</label>
+
+        <!-- skill section -->
+
+        <p><strong>Skills:</strong></p>
+        <input
+          type="checkbox"
+          name="skills"
+          value="javascript"
+          id="javascript"
+        />
+        <label for="skills">javascript</label>
+        <input type="checkbox" name="skills" value="react.js" id="react.js" />
+        <label for="skills">react.js</label>
+        <input type="checkbox" name="skills" value="node.js" id="node.js" />
+        <label for="skills">node.js</label><br /><br />
+
+        <label for="cars"><strong>Choose a car:</strong></label>
+
+        <select name="cars" id="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option></select
+        ><br />
+        <br />
+
+        <label for="myfile"><strong>Select a file:</strong></label>
+        <input type="file" id="myfile" name="myfile" /> <br />
+        <br />
+
+        <label for="mycolor"><strong>Select a color:</strong></label>
+        <input type="color" id="color" name="mycolor" /> <br />
+        <br />
+
+        
+        <label for="renge"><strong>Renge:</strong></label>
+        <input type="range" id="renge" name="renge" /> <br />
+        <br />
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
