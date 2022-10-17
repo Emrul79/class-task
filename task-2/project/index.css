@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(51, 31, 4);
+  padding: 0 80px;
+    color: white;
+}
+.logo{
+    font-size: 40px;
+}
+nav ul a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+main{
+    text-align: center;
+}
+h1{
+    padding: 10px;
+    font-size: 35px;
+}
+h3{
+    padding: 20px;
+}
+.content{
+    background-color: rgb(98, 173, 173);
+    padding: 100px;
+    display: flex;
+    gap: 2rem;
+}
+.left h3, .right h3{
+    font-size: 25px;
+}
+.product{
+    /* border: 1px solid; */
+    margin: 20px;
+    width: 350px;
+    position: relative;
+}
+.product-demo .product-list{
+    padding: 50px;
+    margin: 50px auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner{
+   
+    bottom: 0;
+     display: flex;
+    justify-content: space-around;
+     /* position: absolute; */
+}
+.inner a{
+    text-decoration: none;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
